@@ -8,6 +8,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//change password before you add it and test
 const db = mysql.createConnection(
     {
         host: '127.0.0.1',
