@@ -19,4 +19,6 @@ function getInput() {
     ]);
 };
 
+console.log(getInput());
+
 module.exports = getInput;
